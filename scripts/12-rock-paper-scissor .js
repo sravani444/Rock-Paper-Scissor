@@ -97,7 +97,7 @@ let score=  JSON.parse(localStorage.getItem('score')) || {
   }else if(result === 'Tie.&#128528;'){
     score.ties += 1;
   }
-  updatescoreElement();
+   updatescoreElement();
 
    document.querySelector('.js-result').innerHTML= result;
    document.querySelector('.js-moves').
